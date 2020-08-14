@@ -400,15 +400,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "pandemic/MotherSpriteSheet-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "pandemic\\MotherSpriteSheet-1-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "pandemic/ts1qzswxo2py.png",
         "kind": "image",
         "metadata": "",
@@ -433,6 +424,69 @@
         "name": "pandemic\\ts1qzswxo2py-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/toppng.com-empty-speech-bubble-pixel-chat-bubble-transparent-781x381.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\toppng.com-empty-speech-bubble-pixel-chat-bubble-transparent-781x381.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/MotherSpriteSheet-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\MotherSpriteSheet-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/2020-08-14 (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\2020-08-14 (6).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/2020-08-14 (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\2020-08-14 (7).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/SALTO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\SALTO.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/PixelArt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\PixelArt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pandemic/PixelArt-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pandemic\\PixelArt-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -447,6 +501,147 @@
       "width": 32,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "Virus2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pandemic\\MotherSpriteSheet-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pandemic\\MotherSpriteSheet-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "Bunnings",
+      "tags": "",
+      "texture": "pandemic\\ts1qzswxo2py-1-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "KarenText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "I don't have to wear a mask\nits my constitutional right!!!",
+      "font": "",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "LevBoss",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "BOSS LEVEL",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "KarenHealth",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Karen:100",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
     }
   ],
   "objectsGroups": [],
@@ -560,7 +755,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Oh no, the bad coronas want to harm you\nShoot them away with your isolation gun.\nEach hit is worth 1 point, being hit takes away 1 life.\nDon't shoot the green ones or you will lose 5 points.\nIf you can grab them, they will grant you 10 lives...\n\n\n\n\nHOW TO PLAY:\nUSE 'W', 'A', 'S' and 'D' ON KEYBOARD TO MOVE\nMOUSE CLICK TO SHOOT ISOLATION GUN\n\n\nPress any key to start.",
+          "string": "Oh no, the bad coronas want to harm you\nShoot them away with your isolation gun.\nEach hit is worth 1 point, being hit takes away 1 life.\nDon't shoot the green ones or you will lose 5 points.\nIf you can grab them, they will grant you 10 lives...\n\n\n\n\nHOW TO PLAY:\nUSE 'W', 'A', 'S' and 'D' ON KEYBOARD TO MOVE\nMOUSE CLICK TO SHOOT ISOLATION GUN\n\n\nPress 's' to start.",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -589,10 +784,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AnyKeyPressed"
+                "value": "KeyPressed"
               },
               "parameters": [
-                ""
+                "",
+                "s"
               ],
               "subInstructions": []
             }
@@ -763,6 +959,8 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -770,9 +968,7 @@
               "deceleration": 800,
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
-              "name": "TopDownMovement",
-              "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+              "rotateObject": true
             }
           ],
           "animations": [
@@ -2501,7 +2697,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 2\"",
+                "\"Start Screen Level 2\"",
                 ""
               ],
               "subInstructions": []
@@ -2523,6 +2719,150 @@
                 "Score",
                 ">=",
                 "100"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start Screen Level 2\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Start_32Screen_32Level_322",
+      "name": "Start Screen Level 2",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 599,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "b5cc90ca-e1de-4012-b71f-26cdc1b1a334",
+          "width": 799,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "persistentUuid": "aa82a56f-3f25-4982-b67a-5a8303869403",
+          "width": 0,
+          "x": 191,
+          "y": 176,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "LEVEL 2!\n\n\n\nPress the '2' key to start",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Num2"
               ],
               "subInstructions": []
             }
@@ -2563,12 +2903,7 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        }
-      ]
+      "behaviorsSharedData": []
     },
     {
       "b": 0,
@@ -2698,13 +3033,13 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 0,
-              "topEdgeAnchor": 0,
-              "type": "AnchorBehavior::AnchorBehavior"
+              "topEdgeAnchor": 0
             },
             {
               "name": "TopDownMovement",
@@ -3085,9 +3420,9 @@
           "variables": [],
           "behaviors": [
             {
-              "extraBorder": 0,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
             }
           ],
           "animations": [
@@ -3246,9 +3581,9 @@
           "variables": [],
           "behaviors": [
             {
-              "extraBorder": 0,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
             }
           ],
           "animations": [
@@ -4533,8 +4868,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level_32BOSS",
-      "name": "Level BOSS",
+      "mangledName": "Start_32Screen_32BOSS",
+      "name": "Start Screen BOSS",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -4554,7 +4889,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.82
+        "zoomFactor": 0.85
       },
       "objectsGroups": [],
       "variables": [
@@ -4565,53 +4900,25 @@
         {
           "name": "Score",
           "value": "0"
+        },
+        {
+          "name": "KarenLife",
+          "value": "100"
         }
       ],
       "instances": [
         {
           "angle": 0,
           "customSize": true,
-          "height": 99,
+          "height": 66,
           "layer": "",
           "locked": false,
-          "name": "Player",
-          "persistentUuid": "f4946794-0d29-4a60-a26c-20a0cf180bff",
-          "width": 104,
-          "x": 281,
-          "y": 485,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Lives",
-          "persistentUuid": "9656dacb-94dd-4478-8f66-76b55e7e1854",
-          "width": 0,
-          "x": 438,
-          "y": 13,
-          "zOrder": 100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Score",
-          "persistentUuid": "dae3053a-d3f9-4905-930c-a6f8e29ceec5",
-          "width": 0,
-          "x": 309,
-          "y": 13,
-          "zOrder": 100,
+          "name": "NewObject",
+          "persistentUuid": "25b6125b-f9a6-4a67-a393-1ae26f633aa2",
+          "width": 437,
+          "x": 206,
+          "y": 550,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4619,63 +4926,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 601,
+          "height": 598,
           "layer": "",
           "locked": false,
-          "name": "Background",
-          "persistentUuid": "a9eae91e-7a72-4941-b317-5a5efc802e14",
-          "width": 803,
+          "name": "StartScreen",
+          "persistentUuid": "080522e0-6d9e-4ecc-b72e-3c1c4fb5f6df",
+          "width": 800,
           "x": 0,
           "y": 0,
-          "zOrder": -100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "LevBoss",
-          "persistentUuid": "afcb3daa-3b7d-45e6-b64f-2523729eef31",
-          "width": 0,
-          "x": 140,
-          "y": 13,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 433,
-          "layer": "",
-          "locked": false,
-          "name": "Karen",
-          "persistentUuid": "9a80759d-b5b9-4580-9b63-d8482ecb7347",
-          "width": 473,
-          "x": 285,
-          "y": 62,
-          "zOrder": 102,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 248,
-          "layer": "",
-          "locked": false,
-          "name": "Bunnings",
-          "persistentUuid": "f9d0c179-f40d-4b26-a56f-23fd559c2e1b",
-          "width": 798,
-          "x": 1,
-          "y": 1,
-          "zOrder": -99,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5070,6 +5329,15 @@
           ]
         },
         {
+          "name": "Bullet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
           "name": "Vaccine",
           "tags": "",
           "type": "Sprite",
@@ -5136,14 +5404,14 @@
         {
           "bold": true,
           "italic": false,
-          "name": "Score",
+          "name": "KarenHealth",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Score:",
+          "string": "Karen:100",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -5177,10 +5445,20 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 2,
+              "leftEdgeAnchor": 1,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": false,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior"
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "MotherSpriteSheet-1-2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -5193,44 +5471,44 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 158.4,
+                        "y": 142
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 179,
+                        "y": 149
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 163.4,
-                            "y": 148.9
+                            "x": 175.2,
+                            "y": 146.6
                           },
                           {
-                            "x": 155,
-                            "y": 165.7
+                            "x": 164.8,
+                            "y": 163.4
                           },
                           {
-                            "x": 133.4,
-                            "y": 168.1
+                            "x": 146.4,
+                            "y": 166.6
                           },
                           {
-                            "x": 121,
-                            "y": 150.5
+                            "x": 136.8,
+                            "y": 147.4
                           },
                           {
-                            "x": 121.8,
-                            "y": 127.3
+                            "x": 135.2,
+                            "y": 128.2
                           },
                           {
-                            "x": 142.2,
-                            "y": 115.3
+                            "x": 154.4,
+                            "y": 113
                           },
                           {
-                            "x": 162.2,
-                            "y": 123.7
+                            "x": 170.4,
+                            "y": 121
                           }
                         ]
                       ]
@@ -5250,6 +5528,93 @@
           "width": 32,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "KarenText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "I don't have to wear a mask\nits my constitutional right!!!",
+          "font": "",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "TextBubble",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pandemic\\toppng.com-empty-speech-bubble-pixel-chat-bubble-transparent-781x381.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "StartScreen",
+          "tags": "",
+          "texture": "pandemic\\2020-08-14 (7).png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewObject",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Press 'k' key to fight Karen!",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
         }
       ],
       "events": [
@@ -5729,6 +6094,1903 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "<Karen Setup>",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Player",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Karen",
+                "Player.X()",
+                "Player.Y()",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Karen",
+                "Player.Direction()",
+                "2000",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "5",
+                "\"Karen\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "3",
+                "\"vaccine_spawn\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Vaccine",
+                "Random(700)",
+                "Random(550)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Vaccine",
+                "Random(360)",
+                "200",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"vaccine_spawn\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<Virus/Vaccine Hit>",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Karen",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "KarenLife",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "KarenHealth",
+                "=",
+                "\"Karen:\" +ToString(Variable(KarenLife))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "KarenLife",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Karen",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Vaccine",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Vaccine",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Vaccine",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Vaccine",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Lives",
+                "+",
+                "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "\"Lives:\" +ToString(Variable(Lives))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<End of Game>",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Lives",
+                "<=",
+                "7"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Hit\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Lives",
+                "<=",
+                "4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Hit2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Lives",
+                "<=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Lives",
+                "<=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Lives",
+                ">=",
+                "50"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start Page\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Score",
+                ">=",
+                "50"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start Page\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "k"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level BOSS\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_32BOSS",
+      "name": "Level BOSS",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.82
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "Lives",
+          "value": "20"
+        },
+        {
+          "name": "Score",
+          "value": "0"
+        },
+        {
+          "name": "KarenHealth",
+          "value": "100"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 99,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "f4946794-0d29-4a60-a26c-20a0cf180bff",
+          "width": 104,
+          "x": 281,
+          "y": 485,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 601,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "a9eae91e-7a72-4941-b317-5a5efc802e14",
+          "width": 803,
+          "x": 0,
+          "y": 0,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 248,
+          "layer": "",
+          "locked": false,
+          "name": "Bunnings",
+          "persistentUuid": "a931f4e1-561f-47f4-bdf0-6df8eb231682",
+          "width": 801,
+          "x": 0,
+          "y": 0,
+          "zOrder": -98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LevBoss",
+          "persistentUuid": "8449a6dc-d2ac-4449-b0cd-4f6d4adb9492",
+          "width": 0,
+          "x": 128,
+          "y": 15,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Lives",
+          "persistentUuid": "86361668-06f3-4331-b0d8-a5fb041835e2",
+          "width": 0,
+          "x": 366,
+          "y": 15,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "KarenHealth",
+          "persistentUuid": "e36b3551-6126-4722-b010-22c293643bb5",
+          "width": 0,
+          "x": 551,
+          "y": 15,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 0
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "rotateObject": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\PARADO.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 284.4,
+                          "y": 230.4
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 139.733,
+                        "y": 222.933
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 125,
+                            "y": 100
+                          },
+                          {
+                            "x": 245,
+                            "y": 100
+                          },
+                          {
+                            "x": 250,
+                            "y": 290
+                          },
+                          {
+                            "x": 125,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Running",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\CAMINA 1.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 284.4,
+                          "y": 230.4
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 139.733,
+                        "y": 222.933
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 125,
+                            "y": 100
+                          },
+                          {
+                            "x": 245,
+                            "y": 100
+                          },
+                          {
+                            "x": 250,
+                            "y": 290
+                          },
+                          {
+                            "x": 125,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\CAMINA 2.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 284.4,
+                          "y": 230.4
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 139.733,
+                        "y": 222.933
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 125,
+                            "y": 100
+                          },
+                          {
+                            "x": 245,
+                            "y": 100
+                          },
+                          {
+                            "x": 250,
+                            "y": 290
+                          },
+                          {
+                            "x": 125,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\MUERTE 1.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 284.4,
+                          "y": 230.4
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 139.733,
+                        "y": 222.933
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 125,
+                            "y": 100
+                          },
+                          {
+                            "x": 245,
+                            "y": 100
+                          },
+                          {
+                            "x": 250,
+                            "y": 290
+                          },
+                          {
+                            "x": 125,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\MUERTE 2.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 284.4,
+                          "y": 230.4
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 139.733,
+                        "y": 222.933
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 125,
+                            "y": 100
+                          },
+                          {
+                            "x": 245,
+                            "y": 100
+                          },
+                          {
+                            "x": 250,
+                            "y": 290
+                          },
+                          {
+                            "x": 125,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\MUERTE 3.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 284.4,
+                          "y": 230.4
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 139.733,
+                        "y": 222.933
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 246.8,
+                            "y": 134.6
+                          },
+                          {
+                            "x": 299.6,
+                            "y": 180.4
+                          },
+                          {
+                            "x": 246.8,
+                            "y": 277.8
+                          },
+                          {
+                            "x": 116.4,
+                            "y": 280.2
+                          },
+                          {
+                            "x": 165.2,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bullet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "ship_bullet",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pandemic\\ship_bullet-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 6.20001,
+                        "y": 6.8
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Virus",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\MotherSpriteSheet-2-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 140.133,
+                            "y": 111.067
+                          },
+                          {
+                            "x": 162,
+                            "y": 124.4
+                          },
+                          {
+                            "x": 155.067,
+                            "y": 167.067
+                          },
+                          {
+                            "x": 134,
+                            "y": 166
+                          },
+                          {
+                            "x": 122.533,
+                            "y": 152.667
+                          },
+                          {
+                            "x": 127.333,
+                            "y": 127.6
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pandemic\\MotherSpriteSheet-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 140.133,
+                            "y": 111.067
+                          },
+                          {
+                            "x": 162,
+                            "y": 124.4
+                          },
+                          {
+                            "x": 155.067,
+                            "y": 167.067
+                          },
+                          {
+                            "x": 134,
+                            "y": 166
+                          },
+                          {
+                            "x": 122.533,
+                            "y": 152.667
+                          },
+                          {
+                            "x": 127.333,
+                            "y": 127.6
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PixelArt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pandemic\\PixelArt-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vaccine",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pandemic\\Green_Virus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Lives",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Lives: ",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Score:",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Lev2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "LEVEL 2",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "\"Lives:\" + ToString(Variable(Lives))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<Ship Setup>",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Player",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.05",
+                "\"firerate\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bullet",
+                "Player.X(\"Canon\")",
+                "Player.Y(\"Canon\")",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Bullet",
+                "Player.Angle()",
+                "1000",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<Player Movement>",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Running\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "0",
+                "-100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "w"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Running\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "-100",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "a"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Running\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "0",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "s"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Running\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "100",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "d"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "<Asteroid Setup>",
           "comment2": ""
         },
@@ -5737,6 +7999,18 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.05",
+                "\"large_asteroid_spawn\""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -5754,7 +8028,7 @@
               },
               "parameters": [
                 "",
-                "Karen",
+                "Virus",
                 "Random(700)",
                 "Random(550)",
                 ""
@@ -5764,33 +8038,146 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Virus",
+                "=",
+                "Random(3)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Karen",
+                "Virus",
                 "Random(360)",
-                "40",
+                "80",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"large_asteroid_spawn\""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Virus",
+                    "Player",
+                    "",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Virus",
+                    "=",
+                    "Random(700)",
+                    "=",
+                    "Random(550)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Virus",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Lives",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "\"Lives:\" +ToString(Variable(Lives))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Virus",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -5872,8 +8259,59 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Virus",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Virus",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "KarenHealth",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "KarenHealth",
+                "=",
+                "\"Karen:\" +ToString(Variable(KarenHealth))"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -6177,9 +8615,9 @@
                 "value": "VarScene"
               },
               "parameters": [
-                "Lives",
-                ">=",
-                "50"
+                "KarenHealth",
+                "<=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -6192,7 +8630,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Page\"",
+                "\"Game Won\"",
                 ""
               ],
               "subInstructions": []
@@ -6204,34 +8642,16 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Score",
-                ">=",
-                "50"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Start Page\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -6264,6 +8684,269 @@
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game_32Won",
+      "name": "Game Won",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.94
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "GameOver",
+          "persistentUuid": "3b2e59dc-4d5f-4dfe-adc9-56d99f2f1fdb",
+          "width": 703,
+          "x": 103,
+          "y": 83,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Restart",
+          "persistentUuid": "7602b508-c86f-4c66-8a87-250274b4e72d",
+          "width": 0,
+          "x": 221,
+          "y": 489,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 413,
+          "layer": "",
+          "locked": false,
+          "name": "DeadPlayer",
+          "persistentUuid": "25bb9325-ad31-4e91-bb98-8b740f65f273",
+          "width": 432,
+          "x": 169,
+          "y": 175,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Info",
+          "persistentUuid": "39f7016b-e294-4570-b1f5-a40f60020a2f",
+          "width": 0,
+          "x": 304,
+          "y": 164,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 602,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "01f6fb2e-62f5-4566-8f7d-ddb04eb6ad33",
+          "width": 800,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": true,
+          "name": "GameOver",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "YOU DEFEATED KAREN!!\n",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": true,
+          "name": "Info",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "You kept all \nthe coronas away...",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Restart",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Press 'r' key to restart...",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "DeadPlayer",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pandemic\\SALTO.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     },
     {
       "b": 0,
@@ -6424,7 +9107,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Press any key to restart...",
+          "string": "Press 'r' key to restart...",
           "font": "",
           "characterSize": 30,
           "color": {
@@ -6482,10 +9165,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AnyKeyPressed"
+                "value": "KeyPressed"
               },
               "parameters": [
-                ""
+                "",
+                "r"
               ],
               "subInstructions": []
             }
